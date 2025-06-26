@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Shivam Chaubey</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            position: relative;
+            display: inline-block;
+        }
+        h1::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            width: 100%;
+            height: 4px;
+            background-color: #3498db;
+            border-radius: 2px;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+        }
+        h1:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .social-links {
+            margin-top: 30px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #3498db;
+            font-size: 1.8em;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #2980b9;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Shivam Chaubey</h1>
+        <p>Hello! I'm Shivam Chaubey, a passionate and dedicated software developer with a keen interest in building robust and scalable applications. I love exploring new technologies and solving complex problems.</p>
+        <p>My journey in the world of programming began with a curiosity to understand how things work behind the scenes, and it has since evolved into a full-fledged passion. I enjoy crafting clean, efficient, and maintainable code.</p>
+        <p>When I'm not coding, you can find me reading tech blogs, contributing to open-source projects, or enjoying a good cup of coffee. I believe in continuous learning and always strive to improve my skills.</p>
+        <div class="social-links">
+            <a href="https://github.com/shivamchaubey001" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/shivam-chaubey-a2b1b01b0/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:shivam.chaubey@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a0

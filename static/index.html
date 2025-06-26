@@ -5,18 +5,59 @@
 </head>
 <body>
         <nav>
+            <style> nav { position: fixed; width: 100%; top: 0; z-index: 1000; } </style>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li> 
             </ul>
         </nav>
-    <h1>Welcome to Shivam's Page!</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #5cb85c;
+        }
+    </style>
+
+        
+    <h1>Welcome to the website!</h1>
     <p>We're glad you're here.</p>
-    <button onclick="window.location.href='./about'">About me</button>
 </body>
 </html><style>
-    body {        margin: 0;
+    body {  
+        margin: 0;
         font-family: Arial, sans-serif;
         background-color: #f4f4f4;
         color: #333;
@@ -24,22 +65,9 @@
         padding-top: 50px;
     }
     h1 {
-        color: #0056b3;
+        color: #323232;
     }
     p {
         font-size: 1.2em;
-    }    button {
-        background-color: #007bff;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 1em;
-        margin-top: 20px;
-    }
-    button:hover {
-        background-color: #0056b3;
-    }
-
+    } 
 </style>

@@ -1,4 +1,4 @@
-# Go Warmup Project - My Learnings
+# Go Web Server - My Learnings
 
 My goal was to get started with go with this particular project.
 
